@@ -1,0 +1,26 @@
+{
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "plugin:vue/vue3-recommended",
+    "eslint:recommended",
+    "@vue/typescript/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "rules": {
+    "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "comma-dangle": ["error", "always-multiline"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "never"],
+    "space-before-function-paren": ["error", "never"],
+    "vue/max-attributes-per-line": ["error", {
+      "singleline": 8,
+      "multiline": { "max": 1, "allowFirstLine": false }
+    }]
+  }
+}
