@@ -1,0 +1,1 @@
+import{d as e,u as r,o as t,c as n}from"./vendor.fc6702b5.js";var o=e({setup:()=>(r({title:"Page not found 🦕"}),{})});o.render=function(e,r,o,a,u,d){return t(),n("div",null," 404 ")};export default o;
