@@ -8,6 +8,7 @@ import ViteComponents from 'vite-plugin-components'
 import ViteIcons, { ViteIconsResolver } from 'vite-plugin-icons'
 import Highlightjs from 'markdown-it-highlightjs'
 import LinkAttributes from 'markdown-it-link-attributes'
+import { visualizer } from 'rollup-plugin-visualizer'
 
 
 // https://vitejs.dev/config/
@@ -63,6 +64,9 @@ export default defineConfig(({ command, mode }) => {
 
       // https://github.com/antfu/vite-plugin-icons
       ViteIcons(),
+
+      // https://github.com/btd/rollup-plugin-visualizer
+      visualizer(),
     ],
   }
 })

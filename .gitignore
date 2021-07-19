@@ -17,3 +17,5 @@ dist-ssr
 # lock files
 package-lock.json
 yarn.lock
+
+stats.html
