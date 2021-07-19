@@ -1,1 +1,0 @@
-import{u as t,c as e,o,g as m}from"./vendor.24197863.js";const s={class:"markdown-body"},a=m("h1",null,"temp 1",-1),p={setup:m=>(t({title:"temp1.md",meta:[{property:"og:title",content:"temp1.md"}]}),(t,m)=>(o(),e("div",s,[a])))};export default p;
